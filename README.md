@@ -25,3 +25,24 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+##
+
+Criação dos componentes:
+ng g c component/contact-list
+ng g c component/add-contact
+
+## Instalar o json server
+
+https://www.npmjs.com/package/json-server
+npm install json-server
+
+json-server --watch db.json
+
+## Criação de API service
+
+ng g s api
+
+## criacao de componente de atualização
+
+ng g c component/update-contact

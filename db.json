@@ -1,0 +1,33 @@
+{
+  "posts": [
+    {
+      "id": "9200",
+      "firstname": "Antonio",
+      "lastname": "Teka",
+      "phonenumber": 923456578,
+      "city": "Luanda"
+    },
+    {
+      "id": "eae5",
+      "firstname": "Edmar ",
+      "lastname": "Quinanga",
+      "phonenumber": 924536773,
+      "city": "Viana"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": null
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": null
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
