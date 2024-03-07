@@ -9,14 +9,23 @@ import { AddContactComponent } from './component/add-contact/add-contact.compone
 import { HttpClientModule } from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
 import { UpdateContactComponent } from './component/update-contact/update-contact.component';
+import { FormsModule } from '@angular/forms';
+import { LoginSignupComponent } from './component/login-signup/login-signup.component';
 
 @NgModule({
-  declarations: [AppComponent, ContactListComponent, AddContactComponent, UpdateContactComponent],
+  declarations: [
+    AppComponent,
+    ContactListComponent,
+    AddContactComponent,
+    UpdateContactComponent,
+    LoginSignupComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     ReactiveFormsModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

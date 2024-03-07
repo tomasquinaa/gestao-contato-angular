@@ -22,4 +22,14 @@ export class ApiService {
   deletecontact(id: number) {
     return this.http.delete<contact>('http://localhost:3000/posts/' + id);
   }
+
+  // fetching data on edit
+  fetchdata(id: number) {
+    return this.http.get<contact>('http://localhost:3000/posts/' + id);
+  }
+
+  // update data
+  updatecontact(data: contact, id: number) {
+    return this.http.put<contact>('http://localhost:3000/posts/' + id, data);
+  }
 }

@@ -1,32 +1,28 @@
 {
   "posts": [
     {
-      "id": "9200",
+      "id": "1",
       "firstname": "Antonio",
       "lastname": "Teka",
       "phonenumber": 923456578,
       "city": "Luanda"
     },
     {
-      "id": "eae5",
+      "id": "2",
       "firstname": "Edmar ",
       "lastname": "Quinanga",
       "phonenumber": 924536773,
       "city": "Viana"
-    }
-  ],
-  "comments": [
-    {
-      "id": "1",
-      "text": "a comment about post 1",
-      "postId": null
     },
     {
-      "id": "2",
-      "text": "another comment about post 1",
-      "postId": null
+      "id": "3",
+      "firstname": "Armando",
+      "lastname": "Sumbo",
+      "phonenumber": 334442,
+      "city": "Luanda"
     }
   ],
+  "signup": [],
   "profile": {
     "name": "typicode"
   }

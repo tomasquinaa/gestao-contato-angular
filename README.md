@@ -46,3 +46,7 @@ ng g s api
 ## criacao de componente de atualização
 
 ng g c component/update-contact
+
+## Criacao do component Login
+
+ng g c component/login-signup

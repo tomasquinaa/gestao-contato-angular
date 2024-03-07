@@ -5,3 +5,9 @@ export class contact {
   city?: string;
   id?: number;
 }
+
+export class signup {
+  name?: string;
+  email?: string;
+  password?: string;
+}
