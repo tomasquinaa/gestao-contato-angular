@@ -11,6 +11,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { UpdateContactComponent } from './component/update-contact/update-contact.component';
 import { FormsModule } from '@angular/forms';
 import { LoginSignupComponent } from './component/login-signup/login-signup.component';
+import { PagenotfoundComponent } from './component/pagenotfound/pagenotfound.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { LoginSignupComponent } from './component/login-signup/login-signup.comp
     AddContactComponent,
     UpdateContactComponent,
     LoginSignupComponent,
+    PagenotfoundComponent,
   ],
   imports: [
     BrowserModule,

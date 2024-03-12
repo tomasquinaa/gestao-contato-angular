@@ -5,6 +5,7 @@ import { AddContactComponent } from './component/add-contact/add-contact.compone
 import { UpdateContactComponent } from './component/update-contact/update-contact.component';
 import { LoginSignupComponent } from './component/login-signup/login-signup.component';
 import { AuthGuard } from './shared/auth.guard';
+import { PagenotfoundComponent } from './component/pagenotfound/pagenotfound.component';
 
 const routes: Routes = [
   {
@@ -24,6 +25,7 @@ const routes: Routes = [
   },
   { path: 'login-signup', component: LoginSignupComponent },
   { path: '', redirectTo: 'login-signup', pathMatch: 'full' },
+  { path: '**', component: PagenotfoundComponent },
 ];
 
 @NgModule({
