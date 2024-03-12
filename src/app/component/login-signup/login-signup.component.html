@@ -14,7 +14,7 @@
                         <!-- form section -->
                         <div class="col-md-6 col-lg-6 align-items-center">
                             <div class="card-body p-4 p-lg-5 text-black">
-                                <form>
+                                <form [formGroup]="loginform">
                                     <div
                                         class="d-flex align-items-center mb-3 pb-1">
                                         <i class="fas fa-cubes fa-2x me-3"
@@ -31,18 +31,23 @@
                                             Address</label>
                                         <input type="email"
                                             class="form-control from-control-lg"
-                                            placeholder="Enter your email">
+                                            placeholder="Enter your email"
+                                            formControlName="email">
                                     </div>
                                     <div class="form-outline mb-2">
                                         <label
                                             class="form-label">Password</label>
                                         <input type="password"
                                             class="form-control from-control-lg"
-                                            placeholder="Enter your password">
+                                            placeholder="Enter your password"
+                                            formControlName="password">
                                     </div>
                                     <div class="pt-1 mb-3 text-center">
-                                        <button class="btn btn-dark"
-                                            type="button">Login</button>
+                                        <button
+                                            [disabled]="this.loginform.invalid"
+                                            class="btn btn-dark"
+                                            type="button"
+                                            (click)="loginuser()">Login</button>
                                     </div>
                                     <p class="mt-5 pb-lg-2">Don't have an
                                         account?

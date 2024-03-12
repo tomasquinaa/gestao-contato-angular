@@ -5,7 +5,9 @@
             Crud</h1>
         <div>
             <a class="btn btn-success" [routerLink]="['/addcontact']">Add
-                contact</a>
+                contact</a>&nbsp;
+            <a (click)="logout()" class="btn btn-warning"
+                [routerLink]="['/']">Logout</a>
         </div>
     </div>
 

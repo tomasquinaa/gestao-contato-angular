@@ -28,6 +28,12 @@
       "name": "Samuel",
       "email": "sami@teste.com",
       "password": "12345"
+    },
+    {
+      "id": "2",
+      "name": "Helena",
+      "email": "helena@teste.com",
+      "password": "12345"
     }
   ],
   "profile": {

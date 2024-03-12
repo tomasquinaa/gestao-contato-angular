@@ -29,4 +29,8 @@ export class ContactListComponent implements OnInit {
       this.getcontact();
     });
   }
+
+  logout() {
+    localStorage.removeItem('logindata');
+  }
 }

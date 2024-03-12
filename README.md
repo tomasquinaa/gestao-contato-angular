@@ -50,3 +50,9 @@ ng g c component/update-contact
 ## Criacao do component Login
 
 ng g c component/login-signup
+
+## Criação do Guard
+
+ng g guard shared/auth
+
+Escolheceu-se o CanActivate
